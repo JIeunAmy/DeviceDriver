@@ -10,4 +10,6 @@ public:
 
 protected:
     FlashMemoryDevice* m_hardware;
+private:
+    static const int READ_COUNT = 5;
 };
